@@ -1,0 +1,276 @@
+/* Local copy of tokens for CRA resolution.
+   Source of truth remains at ../../assets/design-tokens.css */
+:root {
+  /* Core colors */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-4d5358: #4d5358;
+  --color-697077: #697077;
+  --color-f2f4f8: #f2f4f8;
+  --color-c1c7cd: #c1c7cd;
+  --color-dde1e6: #dde1e6;
+  --color-001d6c: #001d6c; /* Primary/90 */
+  --color-0f62fe: #0f62fe; /* Primary/60 */
+  --color-da1e28: #da1e28; /* Error */
+  --color-21272a: #21272a;
+  --color-8f9297: #8f9297;
+  --color-e0e2e6: #e0e2e6;
+  --color-7fc678: #7fc678;
+  --color-3a3e44: #3a3e44;
+  --color-8d8d8d: #8d8d8d;
+  --color-e6e7e8: #e6e7e8;
+  --color-121619: #121619;
+  --color-0c69b0: #0c69b0;
+  --color-212529: #212529;
+  --color-bbbbbb: #bbbbbb;
+  --color-eceaea: #eceaea;
+  --color-d9d9d9: #d9d9d9;
+  --color-ff2424: #ff2424;
+  --color-1e1e1e: #1e1e1e;
+  --color-1d1b20: #1d1b20;
+  --color-e4e4e4: #e4e4e4;
+  --color-004894: #004894;
+  --color-0b0c0c: #0b0c0c;
+  --color-a1a1a1: #a1a1a1;
+  --color-f4f9ff: #f4f9ff;
+  --color-dce1e6: #dce1e6;
+  --color-cec6da: #cec6da;
+  --color-6c757d: #6c757d;
+  --color-101214: #101214;
+  --color-141bf1: #141bf1;
+  --color-eff1f3: #eff1f3;
+  --color-383838: #383838;
+  --color-9d9696: #9d9696;
+  --color-edecec: #edecec;
+  --color-444444: #444444;
+  --color-f11447: #f11447;
+  --color-9747ff: #9747ff;
+  --color-c4cbd1: #c4cbd1;
+  --color-e50000: #e50000;
+  --color-8dc63f: #8dc63f;
+  --color-101828: #101828;
+  --color-828799: #828799;
+  --color-667085: #667085;
+  --color-dc3545: #dc3545;
+  --color-ffe5e7: #ffe5e7;
+  --color-932630: #932630;
+  --color-e6f4ea: #e6f4ea;
+  --color-145521: #145521;
+  --color-ec1944: #ec1944;
+  --color-4a4e52: #4a4e52;
+  --color-fff8e1: #fff8e1;
+  --color-9e7700: #9e7700;
+  --color-68a2e2: #68a2e2;
+  --color-28a745: #28a745;
+  --color-c8e4d0: #c8e4d0;
+  --color-bae8c7: #bae8c7;
+  --color-316800: #316800;
+  --color-f2e7c4: #f2e7c4;
+  --color-eedca0: #eedca0;
+  --color-bb7300: #bb7300;
+  --color-e9c2c5: #e9c2c5;
+  --color-f4b3b8: #f4b3b8;
+  --color-ff5c7a: #ff5c7a;
+  --color-dee2e6: #dee2e6;
+  --color-30363c: #30363c;
+  --color-17a2b8: #17a2b8;
+  --color-ffc107: #ffc107;
+  --color-e6ebf0: #e6ebf0;
+  --color-a2a9b0: #a2a9b0;
+  --color-d0d0d0: #d0d0d0;
+  --color-a1b7ff: #a1b7ff;
+  --color-565656: #565656;
+  --color-ffcc9f: #ffcc9f;
+  --color-de0030: #de0030;
+  --color-ff8375: #ff8375;
+  --color-ffa81b: #ffa81b;
+  --color-ff7e71: #ff7e71;
+  --color-ffc28b: #ffc28b;
+  --color-9fb2ff: #9fb2ff;
+  --color-ffb575: #ffb575;
+  --color-ff7365: #ff7365;
+  --color-878d96: #878d96;
+  --color-f4f4f4: #f4f4f4;
+  --color-f6f6f6: #f6f6f6;
+  --color-c4c4c4: #c4c4c4;
+  --color-999999: #999999;
+  --color-ededed: #ededed;
+
+  /* Semantic tokens */
+  --bg-surface: var(--color-white);
+  --bg-subtle: var(--color-f2f4f8);
+  --bg-inverse: var(--color-101214);
+  --text-primary: var(--color-21272a);
+  --text-secondary: var(--color-697077);
+  --text-inverse: var(--color-white);
+  --border-default: var(--color-c1c7cd);
+  --border-subtle: var(--color-dde1e6);
+  --border-strong: var(--color-21272a);
+  --brand-primary: var(--color-0f62fe);
+  --brand-primary-strong: var(--color-001d6c);
+  --success-bg: var(--color-e6f4ea);
+  --success-text: var(--color-145521);
+  --warning-bg: var(--color-fff8e1);
+  --warning-text: var(--color-9e7700);
+  --error-bg: var(--color-ffe5e7);
+  --error-text: var(--color-932630);
+  --critical: var(--color-ff2424);
+
+  /* Typography */
+  --font-roboto: "Roboto", system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif;
+  --font-inter: "Inter", system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif;
+  --font-barlow: "Barlow", system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif;
+  --font-poppins: "Poppins", system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif;
+
+  /* Sizes and line-heights commonly used */
+  --fs-12: 12px;
+  --fs-14: 14px;
+  --fs-15: 15px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-20: 20px;
+  --fs-24: 24px;
+  --fs-32: 32px;
+
+  --lh-14: 14px;
+  --lh-16: 16px;
+  --lh-18: 18px;
+  --lh-20: 20px;
+  --lh-22: 22px;
+  --lh-24: 24px;
+  --lh-26-4: 26.4px;
+  --lh-28: 28px;
+  --lh-32: 32px;
+  --lh-40: 40px;
+
+  /* Radii */
+  --radius-2: 2px;
+  --radius-4: 4px;
+  --radius-5: 5px;
+  --radius-8: 8px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-20: 20px;
+  --radius-24: 24px;
+  --radius-pill: 100px;
+  --radius-full: 9999px;
+
+  /* Shadows (apply alpha in CSS usage) */
+  --shadow-0: 0 2px 4px 0 rgba(0,0,0,0.10);
+  --shadow-1: 0 8px 12px 0 rgba(0,0,0,0.12);
+  --shadow-2: 0 0 1px 0 rgba(0,0,0,0.20);
+  --shadow-3: -2px 0 4px 0 rgba(0,0,0,0.08);
+  --shadow-4: 0 3px 5px 0 rgba(0,0,0,0.10);
+  --shadow-6: 0 4px 4px 0 rgba(0,0,0,0.10);
+
+  /* Spacing (practical subset) */
+  --space-0: 0;
+  --space-2: 2px;
+  --space-4: 4px;
+  --space-6: 6px;
+  --space-8: 8px;
+  --space-10: 10px;
+  --space-12: 12px;
+  --space-14: 14px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-56: 56px;
+  --space-64: 64px;
+  --space-80: 80px;
+  --space-96: 96px;
+  --space-128: 128px;
+}
+
+/* Light and Dark theme hooks */
+:root[data-theme="light"] {
+  --app-bg: var(--bg-surface);
+  --app-text: var(--text-primary);
+  --app-surface: var(--bg-subtle);
+}
+:root[data-theme="dark"] {
+  --app-bg: var(--bg-inverse);
+  --app-text: var(--color-white);
+  --app-surface: #282c34;
+  --border-default: #404040;
+  --text-secondary: #9aa0a6;
+}
+
+/* Base utility classes replicated for isolation if tokens loaded alone */
+.u-container {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: var(--space-24);
+}
+.u-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-12);
+  box-shadow: var(--shadow-0);
+}
+.u-heading-xl {
+  font-family: var(--font-barlow);
+  font-size: var(--fs-32);
+  line-height: var(--lh-40);
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.u-heading-l {
+  font-family: var(--font-barlow);
+  font-size: var(--fs-24);
+  line-height: var(--lh-32);
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.u-title {
+  font-family: var(--font-roboto);
+  font-size: var(--fs-20);
+  line-height: var(--lh-22);
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.u-body {
+  font-family: var(--font-roboto);
+  font-size: var(--fs-16);
+  line-height: 22px;
+  color: var(--text-primary);
+}
+.u-muted {
+  color: var(--text-secondary);
+}
+.u-btn {
+  font-family: var(--font-roboto);
+  font-size: var(--fs-16);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding: 10px 16px;
+  border-radius: var(--radius-8);
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+.u-btn--primary {
+  background: var(--brand-primary);
+  color: var(--text-inverse);
+  border-color: var(--brand-primary);
+}
+.u-btn--outline {
+  background: transparent;
+  color: var(--brand-primary);
+  border-color: var(--brand-primary);
+}
+.u-input {
+  width: 100%;
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-8);
+  padding: 12px 16px;
+}
+.u-input:focus {
+  outline: none;
+  border-color: var(--brand-primary);
+  box-shadow: 0 0 0 2px rgba(15,98,254,0.2);
+}

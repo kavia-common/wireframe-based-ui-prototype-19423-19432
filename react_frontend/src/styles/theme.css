@@ -1,0 +1,44 @@
+/* Global theme import and base resets using Figma tokens */
+
+/* Import local design tokens located in src/assets (CRA-resolvable) */
+@import url("../assets/design-tokens.css");
+
+/* CSS Reset / Base */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--app-bg);
+  color: var(--app-text);
+  font-family: var(--font-roboto);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* App layout helpers */
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: var(--space-24);
+}
+
+.surface {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-12);
+  box-shadow: var(--shadow-0);
+}
+
+/* Focus visible */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}

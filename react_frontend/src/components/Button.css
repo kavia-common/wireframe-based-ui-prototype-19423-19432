@@ -1,0 +1,30 @@
+.btn {
+  composes: u-btn from "../styles/utilities.css";
+}
+
+.btn--primary {
+  background: var(--brand-primary);
+  color: var(--text-inverse);
+  border-color: var(--brand-primary);
+}
+
+.btn--outline {
+  background: transparent;
+  color: var(--brand-primary);
+  border-color: var(--brand-primary);
+}
+
+.btn--ghost {
+  background: transparent;
+  color: var(--text-primary);
+  border-color: transparent;
+}
+
+.btn--sm { padding: 6px 10px; font-size: var(--fs-14); }
+.btn--md { padding: 10px 16px; font-size: var(--fs-16); }
+.btn--lg { padding: 12px 18px; font-size: var(--fs-18); }
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

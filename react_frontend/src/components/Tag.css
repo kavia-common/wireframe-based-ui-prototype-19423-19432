@@ -1,0 +1,31 @@
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: var(--fs-12);
+  border-radius: var(--radius-8);
+  border: 1px solid transparent;
+}
+
+.tag--neutral {
+  background: var(--bg-subtle);
+  color: var(--text-primary);
+  border-color: var(--border-subtle);
+}
+
+.tag--success {
+  background: var(--success-bg);
+  color: var(--success-text);
+  border-color: var(--color-c8e4d0);
+}
+
+.tag--warning {
+  background: var(--warning-bg);
+  color: var(--warning-text);
+  border-color: var(--color-f2e7c4);
+}
+
+.tag--error {
+  background: var(--error-bg);
+  color: var(--error-text);
+  border-color: var(--color-e9c2c5);
+}

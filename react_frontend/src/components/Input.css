@@ -1,0 +1,29 @@
+.field {
+  display: grid;
+  gap: var(--space-6);
+}
+
+.field__label {
+  font-family: var(--font-roboto);
+  font-size: var(--fs-14);
+  color: var(--text-primary);
+}
+
+.field__control {
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.field__control.has-error {
+  border-color: var(--error-text);
+  box-shadow: 0 0 0 2px rgba(236,25,68,0.15);
+}
+
+.field__hint {
+  font-size: var(--fs-12);
+  color: var(--text-secondary);
+}
+
+.field__error {
+  font-size: var(--fs-12);
+  color: var(--error-text);
+}
